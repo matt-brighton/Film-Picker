@@ -3,7 +3,7 @@ import os
 import streamlit as st
 import time
 import random
-from utils import get_films, get_film_info  # 👈 import the right function
+from utils import get_films, get_film_info
 
 load_dotenv()
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
@@ -13,14 +13,12 @@ st.set_page_config(page_title="Film Picker 🎬")
 st.title("Welcome to the Film Picker")
 st.write("Please use the sidebar to navigate!")
 
-# Optional Reset Button
 st.button("Reset")
 
 if st.button("Or, let's pick a film!", icon="🎬", type="primary"):
     with st.spinner("Wait for it..."):
         films = get_films()
         film_choice = random.choice(films)
-        # 👈 now calling the right function
         film_info = get_film_info(film_choice["tmdb_id"])
 
     if film_info:
@@ -37,5 +35,3 @@ if st.button("Or, let's pick a film!", icon="🎬", type="primary"):
         st.write("🏢 Production:", ", ".join(film_info["production_companies"]))
     else:
         st.error("Couldn't fetch movie details from TMDB 😔")
-
-    st.button("Return")
