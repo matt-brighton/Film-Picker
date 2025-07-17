@@ -19,6 +19,7 @@ def get_film_info(tmdb_id):
     response = requests.get(url, params=params)
 
     if not response.ok:
+        print(f"TMDB API Error {response.status_code}: {response.text}")
         return None
 
     data = response.json()
