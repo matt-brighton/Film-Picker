@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-API_KEY = os.getenv("TMDB_API_KEY")
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 def get_films():
     with open("films.json") as films:
@@ -15,7 +15,7 @@ def get_films():
 
 def get_film_info(tmdb_id):
     url = f"https://api.themoviedb.org/3/movie/{tmdb_id}"
-    params = {"api_key": API_KEY}
+    params = {"api_key": TMDB_API_KEY}
     response = requests.get(url, params=params)
 
     if not response.ok:
