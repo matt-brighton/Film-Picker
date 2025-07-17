@@ -1,5 +1,5 @@
 import streamlit as st
-# https://matt-brighton-movie-picker-film-picker-5rhjit.streamlit.app
+# https://jnbk3wnuzk2wpvtczpuwmc.streamlit.app
 
 st.set_page_config(
     page_title="Film Picker"
@@ -7,4 +7,6 @@ st.set_page_config(
 
 
 st.title("Welcome to the Film Picker")
-st.write("Test test test")
+st.write("Please use the sidebar to navigate!")
+
+
