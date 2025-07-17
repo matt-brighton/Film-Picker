@@ -5,8 +5,7 @@ import time
 import random
 from utils import get_films, get_film_info
 
-load_dotenv()
-TMDB_API_KEY = st.secrets("TMDB_API_KEY")
+TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
 
 st.set_page_config(page_title="Film Picker 🎬")
 
