@@ -23,6 +23,7 @@ def get_film_info(tmdb_id):
         return None
 
     data = response.json()
+    print(data)
 
     return {
         "title": data.get("title"),
@@ -42,4 +43,5 @@ def get_film_info(tmdb_id):
         "budget": data.get("budget"),
         "imdb_id": data.get("imdb_id"),
         "homepage": data.get("homepage")
+        
     }
