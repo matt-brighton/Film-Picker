@@ -15,9 +15,7 @@ if st.button("Or, let's pick a film!", icon="🎬", type="primary"):
     with st.spinner("Wait for it..."):
         films = get_films()
         film_choice = random.choice(films)
-        st.write(film_choice)
         film_info = get_film_info(film_choice["tmdb_id"])
-        st.write(film_info)
 
     if film_info:
         st.header(film_info["title"])
