@@ -21,7 +21,7 @@ if st.button("Or, let's pick a film!", icon="🎬", type="primary"):
         film_choice = random.choice(films)
         st.write(film_choice)
         film_info = get_film_info(film_choice["tmdb_id"])
-        st.write("API Key is set:", API_KEY is not None)
+        st.write("API Key is set:", TMDB_API_KEY is not None)
         st.write(film_info)
 
     if film_info:
