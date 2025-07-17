@@ -1,11 +1,10 @@
 import streamlit as st
 import pandas as pd
 import json
+from utils import get_films
 
-with open("films.json") as films:
-    data = json.load(films)
+films = get_films()
 
-films = data["films"]
 df = pd.DataFrame(films)
 
 st.title("Manage Films")

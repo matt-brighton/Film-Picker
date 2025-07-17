@@ -1,104 +1,404 @@
 {
     "films": [
-        "Parasite",
-        "Mulholland Drive",
-        "There Will Be Blood",
-        "In the Mood for Love",
-        "Moonlight",
-        "No Country for Old Men",
-        "Eternal Sunshine of the Spotless Mind",
-        "Get Out",
-        "Spirited Away",
-        "The Social Network",
-        "Mad Max: Fury Road",
-        "The Zone of Interest",
-        "Children of Men",
-        "Inglourious Basterds",
-        "City of God",
-        "Crouching Tiger, Hidden Dragon",
-        "Brokeback Mountain",
-        "Y Tu Mamá También",
-        "Zodiac",
-        "The Wolf of Wall Street",
-        "The Royal Tenenbaums",
-        "The Grand Budapest Hotel",
-        "Boyhood",
-        "Her",
-        "Phantom Thread",
-        "Anatomy of a Fall",
-        "Adaptation",
-        "The Dark Knight",
-        "Arrival",
-        "Lost in Translation",
-        "The Departed",
-        "Bridesmaids",
-        "A Separation",
-        "WALL·E",
-        "A Prophet",
-        "A Serious Man",
-        "Call Me by Your Name",
-        "Portrait of a Lady on Fire",
-        "Lady Bird",
-        "Yi Yi",
-        "Amélie",
-        "The Master",
-        "Oldboy",
-        "Once Upon a Time in Hollywood",
-        "Moneyball",
-        "Roma",
-        "Almost Famous",
-        "The Lives of Others",
-        "Before Sunset",
-        "Up",
-        "12 Years a Slave",
-        "The Favourite",
-        "Borat",
-        "Pan’s Labyrinth",
-        "Inception",
-        "Punch-Drunk Love",
-        "Best in Show",
-        "Uncut Gems",
-        "Toni Erdmann",
-        "Whiplash",
-        "Kill Bill Vol. 1",
-        "Memento",
-        "Little Miss Sunshine",
-        "Gone Girl",
-        "Oppenheimer",
-        "Spotlight",
-        "Tár",
-        "The Hurt Locker",
-        "Under the Skin",
-        "Let the Right One In",
-        "Ocean’s Eleven",
-        "Carol",
-        "Ratatouille",
-        "The Florida Project",
-        "Amour",
-        "O Brother, Where Art Thou?",
-        "Everything Everywhere All at Once",
-        "Aftersun",
-        "The Tree of Life",
-        "Volver",
-        "Black Swan",
-        "The Act of Killing",
-        "Inside Llewyn Davis",
-        "Melancholia",
-        "Anchorman",
-        "Past Lives",
-        "The Lord of the Rings: The Fellowship of the Ring",
-        "The Gleaners & I",
-        "Interstellar",
-        "Frances Ha",
-        "Fish Tank",
-        "Gladiator",
-        "Michael Clayton",
-        "Minority Report",
-        "The Worst Person in the World",
-        "Black Panther",
-        "Gravity",
-        "Grizzly Man",
-        "Memories of Murder",
-        "Superbad"
+        {
+            "title": "Parasite",
+            "tmdb_id": 48311
+        },
+        {
+            "title": "Mulholland Drive",
+            "tmdb_id": 1018
+        },
+        {
+            "title": "There Will Be Blood",
+            "tmdb_id": 7345
+        },
+        {
+            "title": "In the Mood for Love",
+            "tmdb_id": 843
+        },
+        {
+            "title": "Moonlight",
+            "tmdb_id": 376867
+        },
+        {
+            "title": "No Country for Old Men",
+            "tmdb_id": 6977
+        },
+        {
+            "title": "Eternal Sunshine of the Spotless Mind",
+            "tmdb_id": 38
+        },
+        {
+            "title": "Get Out",
+            "tmdb_id": 419430
+        },
+        {
+            "title": "Spirited Away",
+            "tmdb_id": 129
+        },
+        {
+            "title": "The Social Network",
+            "tmdb_id": 37799
+        },
+        {
+            "title": "Mad Max: Fury Road",
+            "tmdb_id": 76341
+        },
+        {
+            "title": "The Zone of Interest",
+            "tmdb_id": 467244
+        },
+        {
+            "title": "Children of Men",
+            "tmdb_id": 9693
+        },
+        {
+            "title": "Inglourious Basterds",
+            "tmdb_id": 16869
+        },
+        {
+            "title": "City of God",
+            "tmdb_id": 598
+        },
+        {
+            "title": "Crouching Tiger, Hidden Dragon",
+            "tmdb_id": 146
+        },
+        {
+            "title": "Brokeback Mountain",
+            "tmdb_id": 142
+        },
+        {
+            "title": "Y Tu Mam\u00e1 Tambi\u00e9n",
+            "tmdb_id": 1391
+        },
+        {
+            "title": "Zodiac",
+            "tmdb_id": 1949
+        },
+        {
+            "title": "The Wolf of Wall Street",
+            "tmdb_id": 106646
+        },
+        {
+            "title": "The Royal Tenenbaums",
+            "tmdb_id": 9428
+        },
+        {
+            "title": "The Grand Budapest Hotel",
+            "tmdb_id": 120467
+        },
+        {
+            "title": "Boyhood",
+            "tmdb_id": 85350
+        },
+        {
+            "title": "Her",
+            "tmdb_id": 152601
+        },
+        {
+            "title": "Phantom Thread",
+            "tmdb_id": 400617
+        },
+        {
+            "title": "Anatomy of a Fall",
+            "tmdb_id": 915935
+        },
+        {
+            "title": "Adaptation",
+            "tmdb_id": 2757
+        },
+        {
+            "title": "The Dark Knight",
+            "tmdb_id": 155
+        },
+        {
+            "title": "Arrival",
+            "tmdb_id": 329865
+        },
+        {
+            "title": "Lost in Translation",
+            "tmdb_id": 153
+        },
+        {
+            "title": "The Departed",
+            "tmdb_id": 1422
+        },
+        {
+            "title": "Bridesmaids",
+            "tmdb_id": 55721
+        },
+        {
+            "title": "A Separation",
+            "tmdb_id": 703731
+        },
+        {
+            "title": "WALL\u00b7E",
+            "tmdb_id": 10681
+        },
+        {
+            "title": "A Prophet",
+            "tmdb_id": 21575
+        },
+        {
+            "title": "A Serious Man",
+            "tmdb_id": 12573
+        },
+        {
+            "title": "Call Me by Your Name",
+            "tmdb_id": 398818
+        },
+        {
+            "title": "Portrait of a Lady on Fire",
+            "tmdb_id": 531428
+        },
+        {
+            "title": "Lady Bird",
+            "tmdb_id": 391713
+        },
+        {
+            "title": "Yi Yi",
+            "tmdb_id": 56247
+        },
+        {
+            "title": "Am\u00e9lie",
+            "tmdb_id": 194
+        },
+        {
+            "title": "The Master",
+            "tmdb_id": 357536
+        },
+        {
+            "title": "Oldboy",
+            "tmdb_id": 87516
+        },
+        {
+            "title": "Once Upon a Time in Hollywood",
+            "tmdb_id": 466272
+        },
+        {
+            "title": "Moneyball",
+            "tmdb_id": 60308
+        },
+        {
+            "title": "Roma",
+            "tmdb_id": 426426
+        },
+        {
+            "title": "Almost Famous",
+            "tmdb_id": 786
+        },
+        {
+            "title": "The Lives of Others",
+            "tmdb_id": 582
+        },
+        {
+            "title": "Before Sunset",
+            "tmdb_id": 80
+        },
+        {
+            "title": "Up",
+            "tmdb_id": 14160
+        },
+        {
+            "title": "12 Years a Slave",
+            "tmdb_id": 76203
+        },
+        {
+            "title": "The Favourite",
+            "tmdb_id": 375262
+        },
+        {
+            "title": "Borat",
+            "tmdb_id": 818789
+        },
+        {
+            "title": "Pan\u2019s Labyrinth",
+            "tmdb_id": 1417
+        },
+        {
+            "title": "Inception",
+            "tmdb_id": 27205
+        },
+        {
+            "title": "Punch-Drunk Love",
+            "tmdb_id": 8051
+        },
+        {
+            "title": "Best in Show",
+            "tmdb_id": 13785
+        },
+        {
+            "title": "Uncut Gems",
+            "tmdb_id": 473033
+        },
+        {
+            "title": "Toni Erdmann",
+            "tmdb_id": 374475
+        },
+        {
+            "title": "Whiplash",
+            "tmdb_id": 244786
+        },
+        {
+            "title": "Kill Bill Vol. 1",
+            "tmdb_id": 24
+        },
+        {
+            "title": "Memento",
+            "tmdb_id": 77
+        },
+        {
+            "title": "Little Miss Sunshine",
+            "tmdb_id": 773
+        },
+        {
+            "title": "Gone Girl",
+            "tmdb_id": 210577
+        },
+        {
+            "title": "Oppenheimer",
+            "tmdb_id": 872585
+        },
+        {
+            "title": "Spotlight",
+            "tmdb_id": 314365
+        },
+        {
+            "title": "T\u00e1r",
+            "tmdb_id": 817758
+        },
+        {
+            "title": "The Hurt Locker",
+            "tmdb_id": 12162
+        },
+        {
+            "title": "Under the Skin",
+            "tmdb_id": 97370
+        },
+        {
+            "title": "Let the Right One In",
+            "tmdb_id": 13310
+        },
+        {
+            "title": "Ocean\u2019s Eleven",
+            "tmdb_id": 161
+        },
+        {
+            "title": "Carol",
+            "tmdb_id": 258480
+        },
+        {
+            "title": "Ratatouille",
+            "tmdb_id": 2062
+        },
+        {
+            "title": "The Florida Project",
+            "tmdb_id": 394117
+        },
+        {
+            "title": "Amour",
+            "tmdb_id": 86837
+        },
+        {
+            "title": "O Brother, Where Art Thou?",
+            "tmdb_id": 134
+        },
+        {
+            "title": "Everything Everywhere All at Once",
+            "tmdb_id": 545611
+        },
+        {
+            "title": "Aftersun",
+            "tmdb_id": 965150
+        },
+        {
+            "title": "The Tree of Life",
+            "tmdb_id": 8967
+        },
+        {
+            "title": "Volver",
+            "tmdb_id": 164076
+        },
+        {
+            "title": "Black Swan",
+            "tmdb_id": 44214
+        },
+        {
+            "title": "The Act of Killing",
+            "tmdb_id": 1045598
+        },
+        {
+            "title": "Inside Llewyn Davis",
+            "tmdb_id": 86829
+        },
+        {
+            "title": "Melancholia",
+            "tmdb_id": 62215
+        },
+        {
+            "title": "Anchorman",
+            "tmdb_id": 8699
+        },
+        {
+            "title": "Past Lives",
+            "tmdb_id": 666277
+        },
+        {
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "tmdb_id": 120
+        },
+        {
+            "title": "The Gleaners & I",
+            "tmdb_id": 44379
+        },
+        {
+            "title": "Interstellar",
+            "tmdb_id": 157336
+        },
+        {
+            "title": "Frances Ha",
+            "tmdb_id": 121986
+        },
+        {
+            "title": "Fish Tank",
+            "tmdb_id": 24469
+        },
+        {
+            "title": "Gladiator",
+            "tmdb_id": 98
+        },
+        {
+            "title": "Michael Clayton",
+            "tmdb_id": 4566
+        },
+        {
+            "title": "Minority Report",
+            "tmdb_id": 180
+        },
+        {
+            "title": "The Worst Person in the World",
+            "tmdb_id": 660120
+        },
+        {
+            "title": "Black Panther",
+            "tmdb_id": 284054
+        },
+        {
+            "title": "Gravity",
+            "tmdb_id": 49047
+        },
+        {
+            "title": "Grizzly Man",
+            "tmdb_id": 288430
+        },
+        {
+            "title": "Memories of Murder",
+            "tmdb_id": 11423
+        },
+        {
+            "title": "Superbad",
+            "tmdb_id": 8363
+        }
     ]
 }
