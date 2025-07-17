@@ -5,8 +5,6 @@ import time
 import random
 from utils import get_films, get_film_info
 
-TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
-
 st.set_page_config(page_title="Film Picker 🎬")
 
 st.title("Welcome to the Film Picker")
@@ -20,7 +18,6 @@ if st.button("Or, let's pick a film!", icon="🎬", type="primary"):
         film_choice = random.choice(films)
         st.write(film_choice)
         film_info = get_film_info(film_choice["tmdb_id"])
-        st.write("API Key is set:", TMDB_API_KEY is not None)
         st.write(film_info)
 
     if film_info:
