@@ -13,8 +13,8 @@ def get_films():
     return data.get("films", [])
 
 
-def get_film_info(film_choice):
-    url = f"https://api.themoviedb.org/3/movie/{film_choice}"
+def get_film_info(tmdb_id):
+    url = f"https://api.themoviedb.org/3/movie/{tmdb_id}"
     params = {"api_key": API_KEY}
     response = requests.get(url, params=params)
 
