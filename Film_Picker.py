@@ -7,13 +7,12 @@ from utils import get_films, get_film_info, get_film_directory
 raw_files, formatted_files = get_film_directory()
 file_map = dict(zip(formatted_files, raw_files))
 
+
 st.set_page_config(page_title="Film Picker 🎬")
-
-st.title("Welcome to the Film Picker")
-selected_film_list = st.selectbox("Choose a Film List",(formatted_files))
+st.title("Film Picker")
+selected_film_list = st.selectbox("Choose a List",(formatted_files))
 selected_file = file_map[selected_film_list]
-
-if st.button("Ok, let's pick a film!", icon="🎬", type="primary"):
+if st.button("Time to Pick!", icon="🎬", type="primary"):
     with st.spinner("Wait for it..."):
         films = get_films(selected_file)
         film_choice = random.choice(films)
