@@ -12,7 +12,7 @@ FILM_LIST_DIRECTORY =  Path("film_lists")
 
 
 
-def get_directory():
+def get_film_directory():
     film_files = []
     for film_file in FILM_LIST_DIRECTORY.glob("*.json"):
         film_files.append(film_file.name)
