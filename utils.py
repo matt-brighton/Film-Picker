@@ -65,5 +65,3 @@ def get_film_info(tmdb_id):
         "homepage": data.get("homepage")
         
     }
-
-get_directory()
