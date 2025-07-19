@@ -7,7 +7,7 @@ films = get_films()
 
 df = pd.DataFrame(films)
 
-st.title("Manage Films")
+st.title("Manage Lists")
 st.dataframe(df)
 
 

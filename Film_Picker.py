@@ -2,16 +2,20 @@ import os
 import streamlit as st
 import time
 import random
-from utils import get_films, get_film_info
+from utils import get_films, get_film_info, get_directory
+
+raw_files, formatted_files = get_directory()
+file_map = dict(zip(formatted_files, raw_files))
 
 st.set_page_config(page_title="Film Picker 🎬")
 
 st.title("Welcome to the Film Picker")
-st.write("Please use the sidebar to navigate!")
+selected_film_list = st.selectbox("Choose a Film List",(formatted_files))
+selected_file = file_map[selected_film_list]
 
-if st.button("Or, let's pick a film!", icon="🎬", type="primary"):
+if st.button("Ok, let's pick a film!", icon="🎬", type="primary"):
     with st.spinner("Wait for it..."):
-        films = get_films()
+        films = get_films(selected_file)
         film_choice = random.choice(films)
         film_info = get_film_info(film_choice["tmdb_id"])
 

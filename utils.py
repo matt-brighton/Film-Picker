@@ -2,18 +2,33 @@ import json
 import requests
 from dotenv import load_dotenv
 import streamlit as st
+from pathlib import Path
 import os
-# LIVE
-# TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
 
-# DEV
 load_dotenv()
 TMDB_API_KEY = os.getenv("TMDB_API_KEY") or st.secrets["TMDB_API_KEY"]
 
+FILM_LIST_DIRECTORY =  Path("film_lists")
 
 
-def get_films():
-    with open("films.json") as films:
+
+def get_directory():
+    film_files = []
+    for film_file in FILM_LIST_DIRECTORY.glob("*.json"):
+        film_files.append(film_file.name)
+    film_files.sort()
+    
+    formatted_film_files = [] 
+    for film_file in film_files:
+        name = film_file.replace(".json", "")
+        name = name.replace("_", " ").replace("-", " ")
+        formatted_film_files.append(name.title())
+    
+    return film_files, formatted_film_files
+
+def get_films(selected_file):
+    filepath = FILM_LIST_DIRECTORY / selected_file
+    with open(filepath, "r", encoding="utf-8") as films:
         data=json.load(films)
 
     return data.get("films", [])
@@ -29,7 +44,6 @@ def get_film_info(tmdb_id):
         return None
 
     data = response.json()
-    print(data)
 
     return {
         "title": data.get("title"),
@@ -51,3 +65,5 @@ def get_film_info(tmdb_id):
         "homepage": data.get("homepage")
         
     }
+
+get_directory()
