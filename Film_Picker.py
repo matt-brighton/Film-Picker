@@ -2,9 +2,9 @@ import os
 import streamlit as st
 import time
 import random
-from utils import get_films, get_film_info, get_directory
+from utils import get_films, get_film_info, get_film_directory
 
-raw_files, formatted_files = get_directory()
+raw_files, formatted_files = get_film_directory()
 file_map = dict(zip(formatted_files, raw_files))
 
 st.set_page_config(page_title="Film Picker 🎬")
