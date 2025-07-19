@@ -3,8 +3,13 @@ import requests
 from dotenv import load_dotenv
 import streamlit as st
 import os
+# LIVE
+# TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
 
-TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
+# DEV
+load_dotenv()
+TMDB_API_KEY = os.getenv("TMDB_API_KEY") or st.secrets["TMDB_API_KEY"]
+
 
 
 def get_films():

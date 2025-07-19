@@ -9,8 +9,6 @@ st.set_page_config(page_title="Film Picker 🎬")
 st.title("Welcome to the Film Picker")
 st.write("Please use the sidebar to navigate!")
 
-st.button("Reset")
-
 if st.button("Or, let's pick a film!", icon="🎬", type="primary"):
     with st.spinner("Wait for it..."):
         films = get_films()
