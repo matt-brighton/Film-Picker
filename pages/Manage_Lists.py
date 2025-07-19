@@ -9,7 +9,3 @@ df = pd.DataFrame(films)
 
 st.title("Manage Lists")
 st.dataframe(df)
-
-
-
-

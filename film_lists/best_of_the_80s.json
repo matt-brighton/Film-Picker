@@ -1,0 +1,444 @@
+{
+  "films": [
+    {
+      "title": "The Shining",
+      "tmdb_id": 694
+    },
+    {
+      "title": "Raging Bull",
+      "tmdb_id": 1578
+    },
+    {
+      "title": "Airplane!",
+      "tmdb_id": 813
+    },
+    {
+      "title": "Caddyshack",
+      "tmdb_id": 11977
+    },
+    {
+      "title": "Ordinary People",
+      "tmdb_id": 721945
+    },
+    {
+      "title": "Friday the 13th",
+      "tmdb_id": 4488
+    },
+    {
+      "title": "The Blues Brothers",
+      "tmdb_id": 525
+    },
+    {
+      "title": "The Elephant Man",
+      "tmdb_id": 1955
+    },
+    {
+      "title": "Raiders of the Lost Ark",
+      "tmdb_id": 85
+    },
+    {
+      "title": "Chariots of Fire",
+      "tmdb_id": 9443
+    },
+    {
+      "title": "Das Boot",
+      "tmdb_id": 1159685
+    },
+    {
+      "title": "Escape from New York",
+      "tmdb_id": 1103
+    },
+    {
+      "title": "An American Werewolf in London",
+      "tmdb_id": 814
+    },
+    {
+      "title": "Blade Runner",
+      "tmdb_id": 78
+    },
+    {
+      "title": "Poltergeist",
+      "tmdb_id": 609
+    },
+    {
+      "title": "The Thing",
+      "tmdb_id": 1091
+    },
+    {
+      "title": "Tron",
+      "tmdb_id": 97
+    },
+    {
+      "title": "Sophie's Choice",
+      "tmdb_id": 15764
+    },
+    {
+      "title": "Tootsie",
+      "tmdb_id": 9576
+    },
+    {
+      "title": "E.T. the Extra-Terrestrial",
+      "tmdb_id": 601
+    },
+    {
+      "title": "Star Trek II: The Wrath of Khan",
+      "tmdb_id": 154
+    },
+    {
+      "title": "First Blood",
+      "tmdb_id": 1368
+    },
+    {
+      "title": "48 Hrs.",
+      "tmdb_id": 150
+    },
+    {
+      "title": "The Dark Crystal",
+      "tmdb_id": 11639
+    },
+    {
+      "title": "An Officer and a Gentleman",
+      "tmdb_id": 2623
+    },
+    {
+      "title": "Michael Jackson's Thriller",
+      "tmdb_id": 92060
+    },
+    {
+      "title": "Terms of Endearment",
+      "tmdb_id": 11050
+    },
+    {
+      "title": "Risky Business",
+      "tmdb_id": 273625
+    },
+    {
+      "title": "The King of Comedy",
+      "tmdb_id": 262
+    },
+    {
+      "title": "The Right Stuff",
+      "tmdb_id": 9549
+    },
+    {
+      "title": "Scarface",
+      "tmdb_id": 111
+    },
+    {
+      "title": "Nostalghia",
+      "tmdb_id": 420164
+    },
+    {
+      "title": "Trading Places",
+      "tmdb_id": 1621
+    },
+    {
+      "title": "A Christmas Story",
+      "tmdb_id": 850
+    },
+    {
+      "title": "This Is Spinal Tap",
+      "tmdb_id": 11031
+    },
+    {
+      "title": "Amadeus",
+      "tmdb_id": 279
+    },
+    {
+      "title": "The Terminator",
+      "tmdb_id": 218
+    },
+    {
+      "title": "Ghostbusters",
+      "tmdb_id": 620
+    },
+    {
+      "title": "The Karate Kid",
+      "tmdb_id": 38575
+    },
+    {
+      "title": "Once Upon a Time in America",
+      "tmdb_id": 10620
+    },
+    {
+      "title": "Paris, Texas",
+      "tmdb_id": 655
+    },
+    {
+      "title": "Stop Making Sense",
+      "tmdb_id": 24128
+    },
+    {
+      "title": "Gremlins",
+      "tmdb_id": 927
+    },
+    {
+      "title": "Footloose",
+      "tmdb_id": 1788
+    },
+    {
+      "title": "Beverly Hills Cop",
+      "tmdb_id": 90
+    },
+    {
+      "title": "A Nightmare on Elm Street",
+      "tmdb_id": 377
+    },
+    {
+      "title": "The NeverEnding Story",
+      "tmdb_id": 34584
+    },
+    {
+      "title": "Back to the Future",
+      "tmdb_id": 105
+    },
+    {
+      "title": "The Breakfast Club",
+      "tmdb_id": 2108
+    },
+    {
+      "title": "Out of Africa",
+      "tmdb_id": 606
+    },
+    {
+      "title": "The Color Purple",
+      "tmdb_id": 558915
+    },
+    {
+      "title": "Brazil",
+      "tmdb_id": 68
+    },
+    {
+      "title": "Shoah",
+      "tmdb_id": 42044
+    },
+    {
+      "title": "Ran",
+      "tmdb_id": 635736
+    },
+    {
+      "title": "The Goonies",
+      "tmdb_id": 9340
+    },
+    {
+      "title": "Pee-wee's Big Adventure",
+      "tmdb_id": 5683
+    },
+    {
+      "title": "A Room with a View",
+      "tmdb_id": 11257
+    },
+    {
+      "title": "Blue Velvet",
+      "tmdb_id": 793
+    },
+    {
+      "title": "Ferris Bueller's Day Off",
+      "tmdb_id": 9377
+    },
+    {
+      "title": "Aliens",
+      "tmdb_id": 679
+    },
+    {
+      "title": "Platoon",
+      "tmdb_id": 792
+    },
+    {
+      "title": "Hannah and Her Sisters",
+      "tmdb_id": 5143
+    },
+    {
+      "title": "Top Gun",
+      "tmdb_id": 744
+    },
+    {
+      "title": "Stand by Me",
+      "tmdb_id": 235
+    },
+    {
+      "title": "Crocodile Dundee",
+      "tmdb_id": 9671
+    },
+    {
+      "title": "Short Circuit",
+      "tmdb_id": 549610
+    },
+    {
+      "title": "The Fly",
+      "tmdb_id": 9426
+    },
+    {
+      "title": "Labyrinth",
+      "tmdb_id": 1279315
+    },
+    {
+      "title": "Fatal Attraction",
+      "tmdb_id": 10998
+    },
+    {
+      "title": "The Untouchables",
+      "tmdb_id": 117
+    },
+    {
+      "title": "The Princess Bride",
+      "tmdb_id": 2493
+    },
+    {
+      "title": "Dirty Dancing",
+      "tmdb_id": 444902
+    },
+    {
+      "title": "Full Metal Jacket",
+      "tmdb_id": 600
+    },
+    {
+      "title": "Wings of Desire",
+      "tmdb_id": 144
+    },
+    {
+      "title": "The Dead",
+      "tmdb_id": 246196
+    },
+    {
+      "title": "RoboCop",
+      "tmdb_id": 5548
+    },
+    {
+      "title": "Evil Dead II",
+      "tmdb_id": 765
+    },
+    {
+      "title": "The Last Emperor",
+      "tmdb_id": 746
+    },
+    {
+      "title": "Broadcast News",
+      "tmdb_id": 12626
+    },
+    {
+      "title": "Wall Street",
+      "tmdb_id": 10673
+    },
+    {
+      "title": "Moonstruck",
+      "tmdb_id": 2039
+    },
+    {
+      "title": "The Lost Boys",
+      "tmdb_id": 1405651
+    },
+    {
+      "title": "Predator",
+      "tmdb_id": 106
+    },
+    {
+      "title": "Die Hard",
+      "tmdb_id": 562
+    },
+    {
+      "title": "Beetlejuice",
+      "tmdb_id": 4011
+    },
+    {
+      "title": "My Neighbor Totoro",
+      "tmdb_id": 8392
+    },
+    {
+      "title": "Akira",
+      "tmdb_id": 149
+    },
+    {
+      "title": "The Accused",
+      "tmdb_id": 460652
+    },
+    {
+      "title": "Big",
+      "tmdb_id": 2280
+    },
+    {
+      "title": "The Bear",
+      "tmdb_id": 584922
+    },
+    {
+      "title": "The Last Temptation of Christ",
+      "tmdb_id": 11051
+    },
+    {
+      "title": "Dead Ringers",
+      "tmdb_id": 9540
+    },
+    {
+      "title": "Child's Play",
+      "tmdb_id": 10585
+    },
+    {
+      "title": "A Fish Called Wanda",
+      "tmdb_id": 623
+    },
+    {
+      "title": "Rain Man",
+      "tmdb_id": 380
+    },
+    {
+      "title": "Mississippi Burning",
+      "tmdb_id": 1632
+    },
+    {
+      "title": "Dangerous Liaisons",
+      "tmdb_id": 968739
+    },
+    {
+      "title": "The Unbearable Lightness of Being",
+      "tmdb_id": 10644
+    },
+    {
+      "title": "Tucker: The Man and His Dream",
+      "tmdb_id": 28176
+    },
+    {
+      "title": "Midnight Run",
+      "tmdb_id": 9013
+    },
+    {
+      "title": "Driving Miss Daisy",
+      "tmdb_id": 289450
+    },
+    {
+      "title": "Henry V",
+      "tmdb_id": 10705
+    },
+    {
+      "title": "Sex, Lies, and Videotape",
+      "tmdb_id": 1412
+    },
+    {
+      "title": "The Fabulous Baker Boys",
+      "tmdb_id": 10875
+    },
+    {
+      "title": "My Left Foot",
+      "tmdb_id": 10161
+    },
+    {
+      "title": "Dead Poets Society",
+      "tmdb_id": 207
+    },
+    {
+      "title": "Crimes and Misdemeanors",
+      "tmdb_id": 11562
+    },
+    {
+      "title": "Born on the Fourth of July",
+      "tmdb_id": 2604
+    },
+    {
+      "title": "Glory",
+      "tmdb_id": 9665
+    },
+    {
+      "title": "Field of Dreams",
+      "tmdb_id": 2323
+    }
+  ]
+}

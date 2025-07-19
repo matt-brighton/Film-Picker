@@ -1,0 +1,412 @@
+{
+  "films": [
+    {
+      "title": "The Rocky Horror Picture Show",
+      "tmdb_id": 36685
+    },
+    {
+      "title": "Fight Club",
+      "tmdb_id": 550
+    },
+    {
+      "title": "Donnie Darko",
+      "tmdb_id": 141
+    },
+    {
+      "title": "Eraserhead",
+      "tmdb_id": 985
+    },
+    {
+      "title": "A Clockwork Orange",
+      "tmdb_id": 185
+    },
+    {
+      "title": "The Big Lebowski",
+      "tmdb_id": 115
+    },
+    {
+      "title": "Repo Man",
+      "tmdb_id": 13820
+    },
+    {
+      "title": "Withnail & I",
+      "tmdb_id": 13446
+    },
+    {
+      "title": "Brazil",
+      "tmdb_id": 68
+    },
+    {
+      "title": "This Is Spinal Tap",
+      "tmdb_id": 11031
+    },
+    {
+      "title": "Harold and Maude",
+      "tmdb_id": 343
+    },
+    {
+      "title": "Pink Flamingos",
+      "tmdb_id": 692
+    },
+    {
+      "title": "Office Space",
+      "tmdb_id": 1542
+    },
+    {
+      "title": "The Evil Dead",
+      "tmdb_id": 764
+    },
+    {
+      "title": "The Warriors",
+      "tmdb_id": 11474
+    },
+    {
+      "title": "They Live",
+      "tmdb_id": 8337
+    },
+    {
+      "title": "Heathers",
+      "tmdb_id": 2640
+    },
+    {
+      "title": "Akira",
+      "tmdb_id": 149
+    },
+    {
+      "title": "Clerks",
+      "tmdb_id": 2292
+    },
+    {
+      "title": "Blue Velvet",
+      "tmdb_id": 793
+    },
+    {
+      "title": "Labyrinth",
+      "tmdb_id": 1279315
+    },
+    {
+      "title": "The Princess Bride",
+      "tmdb_id": 2493
+    },
+    {
+      "title": "Napoleon Dynamite",
+      "tmdb_id": 8193
+    },
+    {
+      "title": "Dazed and Confused",
+      "tmdb_id": 9571
+    },
+    {
+      "title": "Trainspotting",
+      "tmdb_id": 627
+    },
+    {
+      "title": "American Psycho",
+      "tmdb_id": 1359
+    },
+    {
+      "title": "Fear and Loathing in Las Vegas",
+      "tmdb_id": 1878
+    },
+    {
+      "title": "The Room",
+      "tmdb_id": 582913
+    },
+    {
+      "title": "The Boondock Saints",
+      "tmdb_id": 8374
+    },
+    {
+      "title": "Mystery Men",
+      "tmdb_id": 9824
+    },
+    {
+      "title": "Barbarella",
+      "tmdb_id": 8069
+    },
+    {
+      "title": "Time Bandits",
+      "tmdb_id": 36819
+    },
+    {
+      "title": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+      "tmdb_id": 11379
+    },
+    {
+      "title": "Flash Gordon",
+      "tmdb_id": 3604
+    },
+    {
+      "title": "The Toxic Avenger",
+      "tmdb_id": 338969
+    },
+    {
+      "title": "Plan 9 from Outer Space",
+      "tmdb_id": 10513
+    },
+    {
+      "title": "Manos: The Hands of Fate",
+      "tmdb_id": 22293
+    },
+    {
+      "title": "Twin Peaks: Fire Walk with Me",
+      "tmdb_id": 1923
+    },
+    {
+      "title": "UHF",
+      "tmdb_id": 11959
+    },
+    {
+      "title": "Romper Stomper",
+      "tmdb_id": 10412
+    },
+    {
+      "title": "Gummo",
+      "tmdb_id": 18415
+    },
+    {
+      "title": "Delicatessen",
+      "tmdb_id": 892
+    },
+    {
+      "title": "Bottle Rocket",
+      "tmdb_id": 1169787
+    },
+    {
+      "title": "The Last Dragon",
+      "tmdb_id": 13938
+    },
+    {
+      "title": "Liquid Sky",
+      "tmdb_id": 20980
+    },
+    {
+      "title": "The Wicker Man",
+      "tmdb_id": 16307
+    },
+    {
+      "title": "Dead Alive",
+      "tmdb_id": 13899
+    },
+    {
+      "title": "Peeping Tom",
+      "tmdb_id": 439914
+    },
+    {
+      "title": "The Cook, the Thief, His Wife & Her Lover",
+      "tmdb_id": 7452
+    },
+    {
+      "title": "Cube",
+      "tmdb_id": 431
+    },
+    {
+      "title": "Dark City",
+      "tmdb_id": 2666
+    },
+    {
+      "title": "Beyond the Valley of the Dolls",
+      "tmdb_id": 5722
+    },
+    {
+      "title": "Wild at Heart",
+      "tmdb_id": 483
+    },
+    {
+      "title": "The Holy Mountain",
+      "tmdb_id": 94658
+    },
+    {
+      "title": "Freaks",
+      "tmdb_id": 539892
+    },
+    {
+      "title": "Possession",
+      "tmdb_id": 30072
+    },
+    {
+      "title": "Showgirls",
+      "tmdb_id": 10802
+    },
+    {
+      "title": "The Apple",
+      "tmdb_id": 49069
+    },
+    {
+      "title": "Happiness",
+      "tmdb_id": 250833
+    },
+    {
+      "title": "Run Lola Run",
+      "tmdb_id": 104
+    },
+    {
+      "title": "Rushmore",
+      "tmdb_id": 11545
+    },
+    {
+      "title": "Pink Floyd: The Wall",
+      "tmdb_id": 79708
+    },
+    {
+      "title": "The Man Who Fell to Earth",
+      "tmdb_id": 991
+    },
+    {
+      "title": "Troll 2",
+      "tmdb_id": 1180831
+    },
+    {
+      "title": "The Stuff",
+      "tmdb_id": 18502
+    },
+    {
+      "title": "Kung Pow: Enter the Fist",
+      "tmdb_id": 11891
+    },
+    {
+      "title": "Dead Man",
+      "tmdb_id": 724885
+    },
+    {
+      "title": "The Fall",
+      "tmdb_id": 14784
+    },
+    {
+      "title": "Ghost World",
+      "tmdb_id": 1548
+    },
+    {
+      "title": "The Science of Sleep",
+      "tmdb_id": 300
+    },
+    {
+      "title": "Pi",
+      "tmdb_id": 473
+    },
+    {
+      "title": "Primer",
+      "tmdb_id": 14337
+    },
+    {
+      "title": "The Fountain",
+      "tmdb_id": 263190
+    },
+    {
+      "title": "Rubber",
+      "tmdb_id": 45649
+    },
+    {
+      "title": "Enter the Void",
+      "tmdb_id": 34647
+    },
+    {
+      "title": "Waking Life",
+      "tmdb_id": 9081
+    },
+    {
+      "title": "The Greasy Strangler",
+      "tmdb_id": 320413
+    },
+    {
+      "title": "Hausu",
+      "tmdb_id": 1020008
+    },
+    {
+      "title": "The Happiness of the Katakuris",
+      "tmdb_id": 16184
+    },
+    {
+      "title": "Paprika",
+      "tmdb_id": 50270
+    },
+    {
+      "title": "Holy Motors",
+      "tmdb_id": 103328
+    },
+    {
+      "title": "Under the Skin",
+      "tmdb_id": 97370
+    },
+    {
+      "title": "Belladonna of Sadness",
+      "tmdb_id": 64847
+    },
+    {
+      "title": "Fantastic Planet",
+      "tmdb_id": 16306
+    },
+    {
+      "title": "Valerie and Her Week of Wonders",
+      "tmdb_id": 46315
+    },
+    {
+      "title": "Begotten",
+      "tmdb_id": 1483
+    },
+    {
+      "title": "Tetsuo: The Iron Man",
+      "tmdb_id": 41428
+    },
+    {
+      "title": "Possessor",
+      "tmdb_id": 435615
+    },
+    {
+      "title": "The House That Jack Built",
+      "tmdb_id": 398173
+    },
+    {
+      "title": "Antichrist",
+      "tmdb_id": 17609
+    },
+    {
+      "title": "The Lighthouse",
+      "tmdb_id": 503919
+    },
+    {
+      "title": "Mandy",
+      "tmdb_id": 460885
+    },
+    {
+      "title": "Color Out of Space",
+      "tmdb_id": 548473
+    },
+    {
+      "title": "Swiss Army Man",
+      "tmdb_id": 347031
+    },
+    {
+      "title": "The Lobster",
+      "tmdb_id": 254320
+    },
+    {
+      "title": "Sorry to Bother You",
+      "tmdb_id": 424781
+    },
+    {
+      "title": "The Green Knight",
+      "tmdb_id": 559907
+    },
+    {
+      "title": "Everything Everywhere All at Once",
+      "tmdb_id": 545611
+    },
+    {
+      "title": "Skinamarink",
+      "tmdb_id": 994143
+    },
+    {
+      "title": "I'm Thinking of Ending Things",
+      "tmdb_id": 500840
+    },
+    {
+      "title": "Infinity Pool",
+      "tmdb_id": 667216
+    },
+    {
+      "title": "The Strange Color of Your Body's Tears",
+      "tmdb_id": 208284
+    }
+  ]
+}
