@@ -65,3 +65,16 @@ def get_film_info(tmdb_id):
         "homepage": data.get("homepage")
         
     }
+
+def get_watch_providers(tmdb_id):
+    url = f"https://api.themoviedb.org/3/movie/{tmdb_id}/watch/providers"
+    params = {"api_key": TMDB_API_KEY}
+    response = requests.get(url, params=params)
+    
+    if not response.ok:
+        print(f"TMDB API Error {response.status_code}: {response.text}")
+        return None
+    
+    data = response.json()
+    
+    return data

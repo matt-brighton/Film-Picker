@@ -2,7 +2,7 @@ import os
 import streamlit as st
 import time
 import random
-from utils import get_films, get_film_info, get_film_directory
+from utils import get_films, get_film_info, get_film_directory, get_watch_providers
 
 raw_files, formatted_files = get_film_directory()
 file_map = dict(zip(formatted_files, raw_files))
@@ -17,6 +17,7 @@ if st.button("Time to Pick!", icon="🎬", type="primary"):
         films = get_films(selected_file)
         film_choice = random.choice(films)
         film_info = get_film_info(film_choice["tmdb_id"])
+        watch_providers = get_watch_providers(film_choice["tmdb_id"])
 
     if film_info:
         st.header(film_info["title"])
@@ -30,5 +31,6 @@ if st.button("Time to Pick!", icon="🎬", type="primary"):
         st.write("⏱ Runtime:", f"{film_info['runtime']} mins")
         st.metric("⭐ Rating", film_info["vote_average"])
         st.write("🏢 Production:", ", ".join(film_info["production_companies"]))
+        st.write(watch_providers)
     else:
         st.error("Couldn't fetch movie details from TMDB 😔")
