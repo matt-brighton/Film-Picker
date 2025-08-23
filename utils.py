@@ -66,7 +66,8 @@ def get_film_info(tmdb_id):
         
     }
 
-def get_watch_providers(tmdb_id):
+
+def get_watch_providers(tmdb_id, region="GB"):
     url = f"https://api.themoviedb.org/3/movie/{tmdb_id}/watch/providers"
     params = {"api_key": TMDB_API_KEY}
     response = requests.get(url, params=params)
@@ -75,6 +76,6 @@ def get_watch_providers(tmdb_id):
         print(f"TMDB API Error {response.status_code}: {response.text}")
         return None
     
-    data = response.json()
+    data = response.json().get("results", {})
     
-    return data
+    return data.get(region.upper(), {})
