@@ -77,5 +77,53 @@ def get_watch_providers(tmdb_id, region: str="GB"):
         return None
     
     data = response.json().get("results", {})
+    base = "https://image.tmdb.org/t/p/"
     
-    return data.get(region.upper(), {})
+    return {
+            "link": data.get("link"),
+            "flatrate": [
+                {
+                    "provider_id": p["provider_id"],
+                    "provider_name": p["provider_name"],
+                    "logo_url": f"{base}w45{p['logo_path']}" if p.get("logo_path") else None,
+                    "display_priority": p.get("display_priority"),
+                }
+                for p in sorted(data.get("flatrate", []), key=lambda x: x.get("display_priority", 999))
+            ],
+        "rent": [
+            {
+                "provider_id": p["provider_id"],
+                "provider_name": p["provider_name"],
+                "logo_url": f"{base}w45{p['logo_path']}" if p.get("logo_path") else None,
+                "display_priority": p.get("display_priority"),
+            }
+            for p in sorted(data.get("rent", []), key=lambda x: x.get("display_priority", 999))
+        ],
+        "buy": [
+            {
+                "provider_id": p["provider_id"],
+                "provider_name": p["provider_name"],
+                "logo_url": f"{base}w45{p['logo_path']}" if p.get("logo_path") else None,
+                "display_priority": p.get("display_priority"),
+            }
+            for p in sorted(data.get("buy", []), key=lambda x: x.get("display_priority", 999))
+        ],
+        "ads": [
+            {
+                "provider_id": p["provider_id"],
+                "provider_name": p["provider_name"],
+                "logo_url": f"{base}w45{p['logo_path']}" if p.get("logo_path") else None,
+                "display_priority": p.get("display_priority"),
+            }
+            for p in sorted(data.get("ads", []), key=lambda x: x.get("display_priority", 999))
+        ],
+        "free": [
+            {
+                "provider_id": p["provider_id"],
+                "provider_name": p["provider_name"],
+                "logo_url": f"{base}w45{p['logo_path']}" if p.get("logo_path") else None,
+                "display_priority": p.get("display_priority"),
+            }
+            for p in sorted(data.get("free", []), key=lambda x: x.get("display_priority", 999))
+        ],
+        }
